@@ -1,0 +1,151 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+   
+}
+
+:root{
+    --primary-color:#0C4A6E;
+    --font-color:#FBBF24;
+    --bg-color:#CFFAFE;
+
+}
+.bg{
+    background-image: url("/images/jedi.jpg");
+    height: 100%;
+    background-position: 0rem 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .div-inline{
+    list-style: none;
+    display: inline;
+} */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    padding: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+
+.thumbnail{
+    float: left;
+    width: 10%;
+    height: 10%;
+    border-radius: 20rem;
+    margin: 0rem 2rem;
+
+}
+.column {
+  float: left;
+  
+  
+}
+.list-non-bullet{
+    list-style: none;
+    margin-left: 8rem;
+}
+.list-item-inline{
+    list-style: none;
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header{ 
+    float: left;
+    /* width: max-content; */
+    padding: 0.5rem;
+    margin: 0rem 2rem;
+}
+.container{
+    float: left;
+    width: 65%;
+    margin: 2rem 0rem 0rem 2rem;
+    /* margin: auto; */
+}
+#btn-translate{
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+#txt-input{
+    width: 70%;
+    height: 15vh;
+    /* display: block; */
+    margin-top:1rem;
+    margin-right: 0rem;
+    /* margin: 2rem; */
+    font: 400 1.25rem arial;
+    /* font-size: 1.25rem; */
+    padding: 1rem;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+    border-radius: 1rem;
+
+}
+
+#output-head{
+    font-size: 1.25rem; 
+    margin: 1rem 0rem 1rem 0rem;
+    color: var(--font-color);
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    width: max-content;
+    border-radius: 1rem;
+    
+    /* margin-left: 2rem;
+     */
+    /* display: none; */
+}
+#output{
+    border: 1px solid black;
+    width: 70%;
+    height: 15vh;
+    /* display: block; */
+    font-size: 1.25rem;
+    /* margin: 2rem; */
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+}
+.right-content{
+    float: right;
+    width: 20%;
+    height: 400px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border-radius: 1rem;
+    text-align: center;
+}
+textarea{
+    margin:0rem;
+}
+.container section{
+    /* display:block; */
+    margin: 0rem;
+}
+.about{
+   font-size: 1.1rem;
+/* .right-content .container{
+    width: auto;
+    margin: auto;
+    text-align: center;
+} */
+

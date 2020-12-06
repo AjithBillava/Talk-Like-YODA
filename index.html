@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funny Translator</title>
+    <link rel="stylesheet" href="/style.css">
 
-    <style>
+    <!-- <style>
         textarea{
             width: 80%;
             height: 10vh;
@@ -30,22 +31,106 @@
             border-radius: 0.5rem;
         }
 
-    </style>
+    </style> -->
 
 </head>
-<body>
+<body class="bg">
+    <nav class="navigation ">
+        <div class="nav-brand row "> 
+            <ul class="list-non-bullet">
+                <li class="list-item-inline">               
+                    <img src="/images/Yoda-image1.jpg" alt="YODA" class="thumbnail">
+                </li>
+                <li class="list-item-inline">
+                    <h1 class="header"> 
+                        <center><u>TALK LIKE YODA</u></center>
+                        </h1> 
+                </li>
+                <li class="list-item-inline">
+               <img src="/images/Yoda-image1.jpg" alt="YODA" class="thumbnail">
+                    
+                </li>
+            </ul>
 
-    <center><h1>Funny Translator (Minions Language)</h1></center>
+            <!-- <div class="column">
+            </div>
+
+           <div class="column">
+                <h1 class="header"> 
+                TALK LIKE YODA
+                </h1>               
+           </div>
+
+           <div class="column">
+               <img src="/images/yoda.jpg" alt="YODA" class="thumbnail"> -->
+        </div>
+
+            <center>
+                
+               
+
+            </center>
+           
+
+            <!-- <center><h1>TALK LIKE YODA</h1></center> -->
+        </div>
+
+    </nav>
+
+    <div class="container ">
+
+        <!-- <ul>
+            <li class="div-inline">
+                <textarea id="txt-input" placeholder="Enter your text in english and speak like YODA"></textarea>
+
+            </li>
+            <li class="div-inline">
+                <button id="btn-translate">Translate</button>
+
+            </li>
+            <li class="div-inline">
+                <div id="output-head">Output will come here..</div>
     
-    <textarea id="txt-input" placeholder="Enter your text in english and speak like YODA"></textarea>
+                <div id="output"></div>
+            </li>
+        </ul> -->
 
-    <button id="btn-translate">Translate</button>
+       
+                <textarea id="txt-input" placeholder="Enter your text in english and speak like YODA"></textarea>
+
+                <div>
+                    <button id="btn-translate"><strong>TRANSLATE</strong></button>
+
+                </div>
+
+       
+            <div id="output-head">Output will come here... 👇</div>
     
-    <div style="font-size: large; margin-left: 2rem;">Output will come here..</div>
+            <section id="output"></section>
+        
+        
+        
+    </div>
+    <div class="right-content ">
+        <!-- <div class=""> -->
+            <h1><U>ABOUT</U></h1>
+           <div class="about">
+            <p>
+                Hello... Star Wars fans.    
+                This is something that will you excite you.
+               </p>
+               <p>See your favourite character "YODA" converting the normal English text into the way he speaks..</p>
+               <p>Enter the text converted into above text box</p>
+               <p>And see the converted text in the below box</p>
+           </div>
+        <!-- </div> -->
+    </div>
+    
 
-    <div id="output"></div>
+   
     
     <script src="app.js" type="text/javascript"></script>
+    
     
 </body>
 </html>
