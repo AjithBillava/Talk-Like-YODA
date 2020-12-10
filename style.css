@@ -126,9 +126,9 @@ body{
 .right-content{
     float: right;
     width: 20%;
-    height: 400px;
+    height: 80%;
     margin: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: var(--primary-color);
     color: var(--font-color);
     border-radius: 1rem;
@@ -148,4 +148,21 @@ textarea{
     margin: auto;
     text-align: center;
 } */
+}
 
+/* 
+
+footer{
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+a{
+    padding-top: 0.5rem;
+    /* margin: 1rem; */
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
